@@ -5,6 +5,7 @@ html,body{
     background:rgba(0,0,0,.8);
     color:#fff;
     font-size:50px;
+    height:100vh;
 }
 body{
     font-size: .26rem;
@@ -93,7 +94,7 @@ h1,h2,h3{
     border-bottom: 1px solid #ffd200;
 }
 .main-top p:hover {
-    background: #78d474;
+    background: #7c7e7c;
 }
 .main-top p:nth-child(1):hover {
     background:rgba(0,0,0,.8);
@@ -132,7 +133,12 @@ h1,h2,h3{
 .main-top p span:nth-child(4) {
     width:5rem;
 }
-
+.main-top p a{
+    border: .02rem solid rgb(134,217,34);
+    color: #4eee0f;
+    border-radius: 6px;
+    padding:.22rem .42rem;
+}
 
 .main-top p span:last-child{
     border-right: 0;
