@@ -4,7 +4,7 @@ html,body{
     border:0;
     background:rgba(0,0,0,.8);
     color:#fff;
-    font-size:50px;
+    font-size:60px;
     min-height:100vh;
 }
 body{
@@ -111,14 +111,14 @@ h1,h2,h3{
     vertical-align: bottom;
 }
 .main-top p span:nth-child(1) img {
-    width:50px;
-    height:50px;
+    width:1rem;
+    height:1rem;
     border:0;
     margin:0;
     padding:0;
     position:absolute;
     top:22px;
-    left:15px;
+    left:10px;
 }
 .main-top p span:nth-child(1) {
     width: 1.6rem;
@@ -137,7 +137,7 @@ h1,h2,h3{
     border: .02rem solid rgb(134,217,34);
     color: #4eee0f;
     border-radius: 6px;
-    padding:.22rem .42rem;
+    padding:.22rem .32rem;
 }
 
 .main-top p span:last-child{
@@ -157,22 +157,22 @@ h1,h2,h3{
 }
 .quli-h1{
     text-align:center;
-    height:1.8rem;
-    line-height:1.8rem;
+    height:1.4rem;
+    line-height:1.4rem;
     color:red;
     font-size:.64rem;
 }
 .quli-h2{
     text-align:center;
-    height:1.8rem;
-    line-height:1.8rem;
+    height:1.4rem;
+    line-height:1.4rem;
     color:rgb(243, 230, 43);
     font-size:.82rem;
 }
 .quli-welcome{
     text-align:center;
-    height:1.8rem;
-    line-height:1.8rem;
+    height:1.4rem;
+    line-height:1.4rem;
     font-size:.60rem;
     color:rgb(43, 243, 243);
 }
