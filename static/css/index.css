@@ -71,6 +71,8 @@ h1,h2,h3{
     }
 .main{
     width:100%;
+    max-width:1000px;
+    margin:0 auto;
     height:auto;
 }
 .main-top{
@@ -128,16 +130,16 @@ h1,h2,h3{
     width:7rem;
 } 
 .main-top p span:nth-child(3) {
-    width:5.2rem;
+    width:7.7rem;
 }
 .main-top p span:nth-child(4) {
-    width:5rem;
+    width:2.5rem;
 }
 .main-top p a{
     border: .02rem solid rgb(134,217,34);
     color: #4eee0f;
     border-radius: 6px;
-    padding:.22rem .32rem;
+    padding:.22rem .22rem;
 }
 
 .main-top p span:last-child{
@@ -190,4 +192,17 @@ h1,h2,h3{
     font-size:.52rem;
     text-align:center;
     line-height:60px;
+}
+.mnq{
+    width:100%;
+    max-width:900px;
+    margin:0 auto;
+    height:auto;
+}
+.mnq p{
+    width:90%;
+    margin:24px 5%;
+}
+.mnq .img{
+    width:100%;
 }
