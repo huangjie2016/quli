@@ -178,6 +178,16 @@ h1,h2,h3{
     font-size:.60rem;
     color:rgb(43, 243, 243);
 }
+.quli-welcome a{
+    text-align:center;
+    height:1.4rem;
+    line-height:1.4rem;
+    font-size:.60rem;
+    color:rgb(43, 243, 243);
+    border: .01rem solid #fff;
+    border-radius: 4px;
+    padding: .2rem;
+}
 .zezhao{
     position:absolute;
     z-index:99;
@@ -205,4 +215,31 @@ h1,h2,h3{
 }
 .mnq .img{
     width:100%;
+}
+
+
+
+
+
+
+.duanwu-info{
+    width:16rem;
+    max-width:900px;
+    font-size:.56rem;
+    margin:0 auto;
+}
+.duanwu-info p span{
+    color:rgb(43, 243, 243);
+}
+.duanwu-info p a{
+    color:#ccc;
+}
+.duanwu{
+    width:16rem;
+    max-width:900px;
+    height:22.46rem;
+    margin:2vh  auto 0 auto;
+    background:url(../img/dw2020.jpg) no-repeat;
+    background-size: 16rem 100%;
+    position:relative;
 }
