@@ -74,6 +74,7 @@ h1,h2,h3{
     max-width:1000px;
     margin:0 auto;
     height:auto;
+    position:relative;
 }
 .main-top{
     width:96%;
@@ -161,15 +162,21 @@ h1,h2,h3{
     text-align:center;
     height:1.4rem;
     line-height:1.4rem;
-    color:red;
+    color:rgb(107, 215, 226);
     font-size:.64rem;
+    font-weight: 400;
 }
 .quli-h2{
     text-align:center;
+    width:100%;
+    max-width: 900px;
+    margin:0 auto;
+    display: block;
     height:1.4rem;
     line-height:1.4rem;
-    color:rgb(243, 230, 43);
-    font-size:.82rem;
+    color:#fff;
+    border:2px double #24c099;
+    font-size:.64rem;
 }
 .quli-welcome{
     text-align:center;
@@ -178,15 +185,34 @@ h1,h2,h3{
     font-size:.60rem;
     color:rgb(43, 243, 243);
 }
-.quli-welcome a{
+.quli-welcome a, .quli-welcome button{
     text-align:center;
     height:1.4rem;
-    line-height:1.4rem;
     font-size:.60rem;
-    color:rgb(43, 243, 243);
-    border: .01rem solid #fff;
-    border-radius: 4px;
+    color:#fff;
     padding: .2rem;
+    cursor: pointer;
+}
+.quli-welcome .btn1{
+    color:#eb2cc1;
+    height:1.2rem;
+    border: .01rem solid #eb2cc1;
+    border-radius: 8px;
+    background:rgba(0,0,0,.8);
+}
+.quli-welcome .btn2{
+    color:#ebbf2c;
+    height:1.2rem;
+    border: .01rem solid #ebbf2c;
+    border-radius: 8px;
+    background:rgba(0,0,0,.8);
+}
+.quli-welcome .btn3{
+    color:#2ad162;
+    height:1.2rem;
+    border: .01rem solid #2ad162;
+    border-radius: 8px;
+    background:rgba(0,0,0,.8);
 }
 .zezhao{
     position:absolute;
@@ -219,8 +245,28 @@ h1,h2,h3{
 
 
 
-
-
+.dailog_hundred, .dailog_year{
+    display:none;
+    position:absolute;
+    z-index:999;
+    width:90%;
+    min-height:3rem;
+    margin:-100px 0 0 3%;
+    border-radius:.22rem;
+    padding:2%;
+    top:0;
+    left:0;
+    background:rgb(235, 231, 231);
+    color:#000;
+    font-size:.56rem;
+}
+.dailog_hundred .button, .dailog_year .button{
+    text-align: center;
+    height:1rem;
+    line-height:1rem;
+    color:#24c099;
+    cursor: pointer;
+}
 
 .duanwu-info{
     width:16rem;
@@ -242,4 +288,15 @@ h1,h2,h3{
     background:url(../img/dw2020.jpg) no-repeat;
     background-size: 16rem 100%;
     position:relative;
+}
+.goback-container {
+    text-align:center;
+    margin-top:1rem;
+}
+.duanwu-info .goback-container a {
+    padding:.12rem .24rem;
+    border: .02rem solid #898989;
+    border-radius: .08rem;
+    font-size:.56rem;
+    color:rgb(43, 243, 243);
 }

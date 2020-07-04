@@ -8,18 +8,45 @@
   <meta name="description" content="趣哩游戏 手游 页游 人多的游戏">
   <link rel="Shortcut Icon" href="./static/img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="./static/css/index.css">
-
+  <script src="./static/js/jquery-1.9.1.js"></script>
 </head>
 
 <body>
-  <h2 class="quli-h2">www.168quli.com</h2>
   <p class="quli-welcome">
-    <a href="./pages/simulator.html" target="_self">用模拟器玩</a>
-    <a href="./pages/active/duanwu.html" target="_self">端午活动</a>
+    <!-- <button class="btn1">百级奖励</button>
+    <button class="btn2">年终奖</button> -->
+    <a class="btn1">百级奖励</a>
+    <a class="btn2">年终奖</a>
+    <a class="btn3" href="http://quli.kaifumao.com/" target="_black">页游专区</a>
   </p>
-  <h1 class="quli-h1">趣哩游戏 Q群 1106758274 每周五周六发红包</h1>
+  
+  <h1 class="quli-h1">趣哩游戏www.168quli.com Q群1106758274</h1>
 
   <div class="main">
+    <div class="dailog_hundred">
+      <h3>百级奖励</h3>
+      <div>
+        <p>
+          所有在http://www.168quli.com下载的游戏，每到100级发10元 200级发20元,以此类推...<br/>
+          百级奖励所有游戏只能领取一次，比如你在A游戏玩到100级领取了100级的，那么你下次玩B游戏只能领200级以后的奖励<br/>
+          <span>注：如果有人开小号恶意领取百级奖励,直接取消他的年终奖资格,不要因小失大</span>
+        </p>
+        <p class="button">确定</p>
+      </div>
+    </div>
+
+    <div class="dailog_year">
+        <h3>年终奖</h3>
+        <div>
+          <p>
+            所有 http://www.168quli.com/ 上的游戏从1月1号到12月31号累计玩满30天的玩家都能获得一份年终奖,我们简单粗暴就是现金~<br/>
+            年终奖的计算方式：在线时长+充值金额+群内贡献 = 最终年终奖<br/>
+            年终奖计划在每年的平安夜12.24号发放,当年的不累计到下一年<br/>
+            我们现金返利全网唯一，希望各位多介绍朋友进来玩，平台越大，各位的奖励就越高
+          </p>
+          <p class="button">确定</p>
+        </div>
+      </div>
     <div class="main-top">
 
       <p><span>图标</span><span>名称</span><span>信息</span><span>简介</span></p>
@@ -226,6 +253,31 @@
     </p>
     <p><a href="http://www.beian.miit.gov.cn/" target="_self">沪ICP备20016645号</a></p>
   </div>
-</body>
 
+
+  
+  
+
+  <script>
+    $(document).ready(function(){
+      //百级奖励
+      $(".btn1").click(function(){
+        $(".dailog_hundred").show();
+      });
+
+      $(".dailog_hundred .button").click(function(){
+        $(".dailog_hundred").hide();
+      });
+
+      //年终奖
+      $(".btn2").click(function(){
+        $(".dailog_year").show();
+      });
+
+      $(".dailog_year .button").click(function(){
+        $(".dailog_year").hide();
+      });
+    });
+  </script>
+</body>
 </html>
